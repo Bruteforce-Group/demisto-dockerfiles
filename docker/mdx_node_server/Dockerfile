@@ -1,5 +1,5 @@
 # Last modified: 2022-12-19T12:44:51.147552
-FROM node:18.9.1-bullseye-slim
+FROM node:18.20.2-bullseye-slim
 
 ARG BRANCH_NAME=master
 ARG DEMISTO_SDK_URL=https://raw.githubusercontent.com/demisto/demisto-sdk/${BRANCH_NAME}
